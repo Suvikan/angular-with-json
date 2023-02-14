@@ -1,0 +1,38 @@
+[  
+  {  
+    "id": 101,  
+    "name": "Jack",  
+    "email": "jack@gmail.com",  
+    "gender": "male"  
+  },  
+  {  
+    "id": 102,  
+    "name": "Peter",  
+    "email": "peter@gmail.com",  
+    "gender": "male"  
+  },  
+  {  
+    "id": 103,  
+    "name": "Mary",  
+    "email": "mary@gmail.com",  
+    "gender": "female"  
+  },  
+  {  
+    "id": 104,  
+    "name": "Smith",  
+    "email": "smith@gmail.com",  
+    "gender": "male"  
+  },  
+  {  
+    "id": 105,  
+    "name": "John",  
+    "email": "john@gmail.com",  
+    "gender": "male"  
+  },  
+  {
+    "id": 106,
+    "name": "Matti",
+    "email": "matti@gmail.com",
+    "gender": "male"
+  }
+]  

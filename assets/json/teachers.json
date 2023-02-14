@@ -1,0 +1,26 @@
+[  
+  {  
+    "id": 1,  
+    "name": "Mr Stark",  
+    "email": "stark@gmail.com",  
+    "gender": "male"  
+  },  
+  {  
+    "id": 2,  
+    "name": "Mr Holmes",  
+    "email": "holmes@gmail.com",  
+    "gender": "male"  
+  },  
+  {  
+    "id": 3,  
+    "name": "Mrs Pots",  
+    "email": "pots@gmail.com",  
+    "gender": "female"  
+  },  
+  {  
+    "id": 4,  
+    "name": "Mr Smith",  
+    "email": "smith@gmail.com",  
+    "gender": "male"  
+  }
+]  
