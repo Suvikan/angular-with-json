@@ -1,6 +1,96 @@
-<div class="container">  
-    
-  <h1 class="text-center"> Display Data from Json File in Angular </h1>  
+<div class="container">
+  <h1 class="text-center">Display Data from Json File in Angular</h1>
+
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link"
+            data-toggle="collapse"
+            data-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Studentes
+          </button>
+        </h5>
+      </div>
+
+      <div
+        id="collapseOne"
+        class="collapse show"
+        aria-labelledby="headingOne"
+        data-parent="#accordion"
+      >
+        <div class="card-body">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let student of students">
+                <td>{{ student.id }}</td>
+                <td>{{ student.name }}</td>
+                <td>{{ student.email }}</td>
+                <td>{{ student.gender }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button
+            class="btn btn-link collapsed"
+            data-toggle="collapse"
+            data-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Teachers
+          </button>
+        </h5>
+      </div>
+      <div
+        id="collapseTwo"
+        class="collapse"
+        aria-labelledby="headingTwo"
+        data-parent="#accordion"
+      >
+        <div class="card-body">
+          <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let teacher of teachers">
+                <td>{{ teacher.id }}</td>
+                <td>{{ teacher.name }}</td>
+                <td>{{ teacher.email }}</td>
+                <td>{{ teacher.gender }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
     
   <table class="table table-striped">  
     <thead>  
@@ -20,4 +110,24 @@
       </tr>  
     </tbody>  
   </table>  
-</div>  
+  <hr>
+
+  <table class="table table-striped table-dark">  
+    <thead>  
+        <tr>  
+          <th>ID</th>  
+          <th>Name</th>  
+          <th>Email</th>  
+          <th>Gender</th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+      <tr *ngFor="let teacher of teachers">  
+        <td>{{ teacher.id }}</td>  
+        <td>{{ teacher.name }}</td>  
+        <td>{{ teacher.email }}</td>  
+        <td>{{ teacher.gender }}</td>  
+      </tr>  
+    </tbody>  
+  </table> 
+</div>  -->
