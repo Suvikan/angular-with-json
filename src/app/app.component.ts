@@ -23,7 +23,8 @@ interface Teacher {
 })
 export class AppComponent {
   title = 'angular-with-json';
-
+  
   students:Student[] = studentsData;
   teachers:Teacher[] = teachersData;
+  
 }
